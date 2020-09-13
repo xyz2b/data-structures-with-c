@@ -1,0 +1,53 @@
+/*
+循环队列
+    front指向队列的首
+    tail指向队列的尾
+
+    front==tail: 队列空
+    (tail+1)%array_size==front: 队列满
+
+     tail
+    |     |     |     |     |     |     |     |
+     front
+
+            tail
+    |  6  |     |  1  |  2  |  3  |  4  |  5  |
+                 front
+
+    底层通过数组实现
+    数组索引到队列索引的转换
+    (a_i + front)%array_size
+    for(i = 0; i < array_size; i++)
+        array[(i + front)%array_size]
+    如果遍历循环的是数组索引，获取队列元素时要用上面的转换得到队列中的索引再从数组中获取队列元素
+
+    队列索引到数组索引的转换
+    (q_i + 1) %array_size
+    for(i = front; i != tail; (i + 1) %array_size)
+        array[i]
+    如果遍历循环的是队列索引，获取队列元素时要用上面的转换得到数组中的索引再从数组中获取队列元素
+*/
+
+/*
+    队列的抽象数据类型
+
+    ADT 循环队列(loop_queue) 
+    Data
+        同线性表。元素具有相同类型，相邻元素具有前驱和后继关系
+    Operation
+        loop_queue_t *loop_queue_c(capacity, element_size): 初始化操作，返回一个容量为c的空动态队列，队列每个元素的大小为e
+        loop_queue_t *loop_queue(element_size): 初始化操作，返回一个容量为默认值(10)的空动态队列，队列每个元素的大小为e
+        int loop_queue_size(*A): 返回队列A的元素个数
+        int loop_queue_capacity(*A): 返回队列A的容量
+        bool loop_queue_is_empty(*A): 若队列为空，返回true，否则返回false
+
+        loop_queue_show(*A, *to_string): 查看队列的信息，需要传入调用方定义的将调用方自定义的类型转换成数组的函数to_string
+
+        loop_queue_enqueue(*A, void *e): 入队元素e
+        loop_queue_dequeue(*A void *ret): 出队，出队元素存放在ret中
+        loop_queue_front(*A, void *ret): 查看队首的元素，存放在ret中
+
+        loop_queue_clear(*A): 将队列清空
+        loop_queue_destroy(**A): 若队列存在，则销毁它
+    endADT
+*/

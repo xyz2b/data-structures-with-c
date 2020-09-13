@@ -1,0 +1,17 @@
+/*
+    循环链表
+        将单链表中终端结点的指针端由空指针改为指向头结点，就使整个单链表形成一个环，这种头尾相接的单链表称为单循环链表，简称循环链表(circular linked list)
+
+    使用指向终端结点的尾指针来表示循环列表，终端结点用尾指针rear指示，则头结点就是rear->next，开始节点就是rear->next->next
+*/
+
+/*将两个循环列表合并*/
+/*
+    rearA指向A循环链表的尾结点
+    rearB指向B循环链表的尾结点
+*/
+p = rearA->next /*保存A表的头结点*/
+rearA->next = rearB->next->next /*将本是指向B的第一个结点(非头结点)赋值给rearA->next*/
+q = rearB->next
+rearB->next = p /*将原A表的头结点赋值给rearB->next*/
+free(q) /*释放B的头结点，即q*/

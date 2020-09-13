@@ -1,0 +1,37 @@
+/*
+    动态数组的抽象数据类型
+
+    ADT 泛型动态数组(dynamic_array)
+    Data
+        同线性表。元素具有相同类型，相邻元素具有前驱和后继关系
+    Operation
+        dynamic_array_t *array_c(capacity, element_size): 初始化操作，返回一个容量为c的空动态数组，数组每个元素的大小为e
+        dynamic_array_t *array(element_size): 初始化操作，返回一个容量为默认值(10)的空动态数组，数组每个元素的大小为e
+        int array_size(*A): 返回数组A的元素个数
+        int array_capacity(*A): 返回数组A的容量
+        bool array_is_empty(*A): 若数组为空，返回true，否则返回false
+
+        array_show(*A, *to_string): 查看数组的信息，需要传入调用方定义的将调用方自定义的类型转换成数组的函数to_string
+
+        array_insert(*A, index, void *e): 向数组索引为index位置插入元素e
+        array_insert_last(*A, void *e): 向数组末尾插入一个元素e
+        array_insert_first(*A, void * e): 向数组末尾插入一个元素e
+
+        array_get(*A, index, void *ret): 获取index索引位置的元素，存放在ret中
+        array_get_last(*A, void *ret): 获取数组尾元素，存放在ret中
+        array_get_first(*A, void *ret): 获取数组首元素，存放在ret中
+
+        array_set(*A, index, void *e): 修改数组index索引位置的元素为e
+
+        bool array_contain(*A, void *e): 查找数组中是否有元素e
+        int array_find(*A, void *e): 查找数组中元素e所在的索引，如果不存在元素e，则返回-1
+
+        array_remove(*A, index, void *ret): 删除数组中index位置的元素，并将删除的元素存在ret中
+        array_remove_last(*A, void *ret):删除数组中末尾的元素，并将删除的元素存在ret中
+        array_remove_first(*A, void *ret): 删除数组中开头的元素，并将删除的元素存在ret中
+        array_remove_elem(*A, void *e): 删除数组中元素e
+
+        array_clear(*A): 将数组清空
+        array_destroy(**A): 若数组存在，则销毁它
+    endADT
+*/

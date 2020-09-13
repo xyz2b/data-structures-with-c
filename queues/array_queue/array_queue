@@ -1,0 +1,29 @@
+/*
+    队列(queue)是只允许在一端进行插入操作，而在另一端进行删除操作的线性表
+    队列是一种先进先出(First In First Out)的线性表，简称FIFO
+    运行插入的一端称为队尾，允许删除的一端称为队头
+*/
+
+/*
+    队列的抽象数据类型
+
+    ADT 基于动态数组的队列(array_queue)
+    Data
+        同线性表。元素具有相同类型，相邻元素具有前驱和后继关系
+    Operation
+        array_queue_t *array_queue_c(capacity, element_size): 初始化操作，返回一个容量为c的空动态队列，队列每个元素的大小为e
+        array_queue_t *array_queue(element_size): 初始化操作，返回一个容量为默认值(10)的空动态队列，队列每个元素的大小为e
+        int array_queue_size(*A): 返回队列A的元素个数
+        int array_queue_capacity(*A): 返回队列A的容量
+        bool array_queue_is_empty(*A): 若队列为空，返回true，否则返回false
+
+        array_queue_show(*A, *to_string): 查看队列的信息，需要传入调用方定义的将调用方自定义的类型转换成数组的函数to_string
+
+        array_queue_enqueue(*A, void *e): 入队元素e
+        array_queue_dequeue(*A void *ret): 出队，出队元素存放在ret中
+        array_queue_front(*A, void *ret): 查看队首的元素，存放在ret中
+
+        array_queue_clear(*A): 将队列清空
+        array_queue_destroy(**A): 若队列存在，则销毁它
+    endADT
+*/

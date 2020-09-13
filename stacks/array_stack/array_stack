@@ -1,0 +1,30 @@
+/*
+    栈(stack)是限定仅在表尾进行插入和删除操作的线性表
+    允许插入的一端称为栈顶(top)，另一端称为栈底(bottom)，不含任何数据元素的栈称为空栈。栈又称后进先出(Last In First Out)的线性表，简称LIFO结构
+    栈的插入操作，叫作进栈，也称压栈、入栈
+    栈的删除操作，叫作出栈，也有的叫作弹栈
+*/
+
+/*
+    栈的抽象数据类型
+
+    ADT 基于动态数组的栈(array_stack)
+    Data
+        同线性表。元素具有相同类型，相邻元素具有前驱和后继关系
+    Operation
+        array_stack_t *array_stack_c(capacity, element_size): 初始化操作，返回一个容量为c的空动态栈，栈每个元素的大小为e
+        array_stack_t *array_stack(element_size): 初始化操作，返回一个容量为默认值(10)的空动态栈，栈每个元素的大小为e
+        int array_stack_size(*A): 返回栈A的元素个数
+        int array_stack_capacity(*A): 返回栈A的容量
+        bool array_stack_is_empty(*A): 若栈为空，返回true，否则返回false
+
+        array_stack_show(*A, *to_string): 查看栈的信息，需要传入调用方定义的将调用方自定义的类型转换成数组的函数to_string
+
+        array_stack_push(*A, void *e): 向栈中压入元素e
+        array_stack_pop(*A void *ret): 弹出栈顶的元素，存放在ret中
+        array_stack_peek(*A, void *ret): 查看栈顶的元素，存放在ret中
+
+        array_stack_clear(*A): 将栈清空
+        array_stack_destroy(**A): 若栈存在，则销毁它
+    endADT
+*/

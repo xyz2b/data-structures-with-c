@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="data_structures"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hongyujiao/c/data_structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hongyujiao/c/data_structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hongyujiao/c/data_structures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataStructures">
+				<Option output="/Users/hongyujiao/c/data_structures/cmake-build-debug/DataStructures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hongyujiao/c/data_structures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructures"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DataStructures/fast">
+				<Option output="/Users/hongyujiao/c/data_structures/cmake-build-debug/DataStructures" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hongyujiao/c/data_structures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 DataStructures/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/hongyujiao/c/data_structures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hongyujiao/c/data_structures/2-3_tree/2-3_tree.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/2-3_tree/2-3_tree.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/arrays/basic_array/base_array.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/arrays/basic_array/base_array.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/arrays/dynamic_array/dynamic_array.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/arrays/dynamic_array/dynamic_array.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/avl_tree/avl_tree/avl_tree.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/avl_tree/avl_tree/avl_tree.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/bst/basic_bst/basic_bst.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/bst/basic_bst/basic_bst.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/bst/repeat_elem_bst/repeat_elem_bst.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/bst/repeat_elem_bst/repeat_elem_bst.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/heap/max_heap/dynamic_array_max_heap/dynamic_array_max_heap.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/heap/max_heap/dynamic_array_max_heap/dynamic_array_max_heap.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/linked_list/base_linked_list/base_linked_list.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/linked_list/base_linked_list/base_linked_list.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/linked_list/double_linked_list/double_linked_list.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/linked_list/double_linked_list/double_linked_list.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/linked_list/loop_linked_list/loop_linked_list.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/linked_list/loop_linked_list/loop_linked_list.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/main.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/map/bst_map/bst_map.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/map/bst_map/bst_map.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/map/linked_list_map/linked_list_map.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/map/linked_list_map/linked_list_map.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/priority_queue/max_heap_priority_queue/max_heap_priority_queue.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/priority_queue/max_heap_priority_queue/max_heap_priority_queue.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/queues/array_queue/array_queue.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/queues/array_queue/array_queue.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/queues/linked_list_queue/linked_list_queue.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/queues/linked_list_queue/linked_list_queue.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/queues/loop_queue/loop_queue.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/queues/loop_queue/loop_queue.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/rb_tree/rb_tree.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/rb_tree/rb_tree.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/segment_tree/array_segment_tree/array_segment_tree.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/segment_tree/array_segment_tree/array_segment_tree.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/set/bst_set/bst_set.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/set/bst_set/bst_set.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/set/linked_list_set/linked_list_set.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/set/linked_list_set/linked_list_set.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/stacks/array_stack/array_stack.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/stacks/array_stack/array_stack.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/stacks/linked_list_stack/linked_list_stack.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/stacks/linked_list_stack/linked_list_stack.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/trie/map_trie/map_trie.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/trie/map_trie/map_trie.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_1/union_find_1.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_1/union_find_1.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_2/union_find_2.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_2/union_find_2.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_3/union_find_3.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_3/union_find_3.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_4/union_find_4.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_4/union_find_4.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_5/union_find_5.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_5/union_find_5.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_6/union_find_6.c">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/union_find/union_find_6/union_find_6.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="/Users/hongyujiao/c/data_structures/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
